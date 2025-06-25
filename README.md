@@ -23,13 +23,14 @@ This Python project is focused on analyzing and studying climate data. It provid
     ```
     
 3. **Activate the virtual environment:**
+   
     For Linux/macOS:
     ```   
-        source env/bin/activate
+    source env/bin/activate
     ```
     For Windows:
     ```
-        env\Scripts\activate 
+    env\Scripts\activate 
     ```
 
 5. **Install dependencies:**
@@ -38,12 +39,14 @@ This Python project is focused on analyzing and studying climate data. It provid
     ```
 
 6. **Run the scripts:**
+   
     Using bash:
-    1.Make it executable:
+   
+    1) Make it executable:
     ```
     chmod +x run.sh
     ```
-    2.Run it:
+    2) Run it:
     ```
     ./run.sh
     ```
