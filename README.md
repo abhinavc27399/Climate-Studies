@@ -23,29 +23,37 @@ This Python project is focused on analyzing and studying climate data. It provid
     ```
     
 3. **Activate the virtual environment:**
-    ```
     For Linux/macOS:
+    ```   
         source env/bin/activate
+    ```
     For Windows:
+    ```
         env\Scripts\activate 
     ```
 
-4. **Install dependencies:**
+5. **Install dependencies:**
     ```
     pip install -r requirements.txt
     ```
 
-5. **Run the scripts:**
-    ```
+6. **Run the scripts:**
     Using bash:
-      1.Make it executable:
-          chmod +x run.sh
-      2.Run it:
-          ./run.sh
-    using powershell or command prompt:
-          powershell -File run.ps1
-        or,
-          powershell -ExecutionPolicy Bypass -File run.ps1
+    1.Make it executable:
+    ```
+    chmod +x run.sh
+    ```
+    2.Run it:
+    ```
+    ./run.sh
+    ```
+    Using powershell or command prompt:
+    ```
+    powershell -File run.ps1
+    ```
+    or
+    ```
+    powershell -ExecutionPolicy Bypass -File run.ps1
     ```
 
 ## Project Structure
