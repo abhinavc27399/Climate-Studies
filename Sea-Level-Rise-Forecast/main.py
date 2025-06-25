@@ -8,12 +8,10 @@ from keras.layers import LSTM, Dense
 from keras.callbacks import EarlyStopping
 import matplotlib.ticker as mticker
 
-
-dir_path = os.path.dirname(os.path.realpath(__file__))
-
 # Load sample sea level data
 # CSV should contain 'Year' and 'GMSL' (Global Mean Sea Level in mm)
-data = pd.read_csv(dir_path + "/database/sea_level_data.csv")
+file_path = os.path.dirname(os.path.dirname(__file__)) + "\datasets\sea_level_data.csv" # Adjust path to point to the correct CSV file
+data = pd.read_csv(file_path)
 data = data.sort_values("Year")
 
 # Normalize GMSL for better training stability
