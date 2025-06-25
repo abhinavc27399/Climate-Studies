@@ -1,11 +1,10 @@
-import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from database.data_merge import data
 
-# Preprocessing
+# Preprocessing of merged data from databse 
 features = data[["Year", "CO2_ppm"]]
 target = data["Temperature_Anomaly_C"]
 
