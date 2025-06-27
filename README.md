@@ -60,3 +60,16 @@ This Python project is focused on analyzing and studying climate data. It provid
     ```
 
 ## Project Structure
+```
+Climate-Studies/
+├── CO2-Concentration-Forecast/                 # each sub project directory contains a mian.py
+│   ├── main.py
+.
+.
+.
+.
+├── datasets/                        # conatains data files
+├── run.sh/run.ps1                   # platform specific run scripts for the project
+├── requirements.txt                 # package dependencies list
+└── README.md
+```
